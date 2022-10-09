@@ -377,7 +377,7 @@ function createElement(container, element) {
                 containerChoice.setAttribute('class', 'container-choice');
                 input.setAttribute('type', 'number');
                 input.setAttribute('class', 'case-number');
-                input.value = single.value
+                single.value > 0 ? input.value = single.value : input.placeholder = single.value;
                 input.addEventListener('change', ()=>{               
                     const orderin = document.querySelectorAll('.case-number')
                     file.QCM[8].choiceOrder[0].value = orderin[0].value
