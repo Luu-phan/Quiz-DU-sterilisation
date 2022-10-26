@@ -427,7 +427,7 @@
         {
             "role" : "uniqueChoice",
             "QuestionNumber" : "Question 23/59",
-            "QuestionName" : "Pour un acier, un choc thermique s'observe lorsque l'écart entre deux surfaces est :",
+            "QuestionName" : "Pour un acier, un choc thermique peut s'observer lorsque l'écart de température entre deux surfaces est :",
             "choice" : [
                 {
                     "choice" : "> 20° C",
@@ -772,7 +772,7 @@
         {
             "role" : "input",
             "QuestionNumber" : "Question 43/59",
-            "QuestionName" : "La vapeur d'eau saturée est une méthode pour lutter contre l'ATNC, mais que signifie ATNC ?",
+            "QuestionName" : "La vapeur d'eau saturée est une méthode pour lutter contre les ATNC, mais que signifie ATNC ?",
             "bigInput" : [
                 {
                     "input" : ""
